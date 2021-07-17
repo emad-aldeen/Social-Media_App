@@ -4,7 +4,7 @@ const userSchema = new Schema({
     username: String,
     password: String,
     email: String,
-    ceratedAt: String
+    created: String,
 });
 
-module.exports = modle('User', userSchema);
+module.exports = model('User', userSchema);
