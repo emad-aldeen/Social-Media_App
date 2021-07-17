@@ -14,3 +14,12 @@ Small Social-Media_App using MERN Stack + GRaphQl
     * confirm & add connection code to MDB
     * conecting GQL Queries with MDB
     * creating Schema for MDB
+ 2. ***[login-register](https://github.com/3madov-77/Social-Media_App/tree/login-register)***: implemnt the popular 2 fetures (register & login) to have users auth..
+    * update README for last step
+    * re-structuring files
+    * adding nodemon dependency
+    * adding bcryptjs & jsonwebtoken libraries
+    * added register new user feture
+    * added validate function for user inputs in new register
+    * added login feture
+    * added validate function for user input in login
