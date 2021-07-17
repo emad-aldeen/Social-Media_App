@@ -1,0 +1,25 @@
+{
+  "name": "social-media_app",
+  "version": "1.0.0",
+  "description": "Small Social-Media_App using MERN Stack + GRaphQl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3madov-77/Social-Media_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3madov-77/Social-Media_App/issues"
+  },
+  "homepage": "https://github.com/3madov-77/Social-Media_App#readme",
+  "dependencies": {
+    "apollo-server": "^3.0.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.3"
+  }
+}
