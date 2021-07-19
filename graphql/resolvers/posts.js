@@ -3,7 +3,7 @@ const { subscribe } = require('graphql');
 
 const Post = require('../../models/Post');
 const checkAuth = require('../../util/check-auth');
-
+const { ValidatePostInput } = require('../../util/validators');
 
 module.exports = {
     Query: {
@@ -32,6 +32,11 @@ module.exports = {
         async createPost(_, { body }, context){
             const user = checkAuth(context); // check if his token secret_key == our server secret_key
 
+            const { errors, valid } = ValidatePostInput(body);
+            if(!valid){
+                throw new UserInputError('Empty Post!', { errors })
+            }
+            
             const newPost = new Post({
                 body,
                 user: user.id,
