@@ -49,3 +49,8 @@ Small Social-Media_App using MERN Stack + GRaphQl
       * set up react-app
       * installing requierd dependencys: (@apollo/react-hooks apollo-cache-inmemory apollo-link-http apollo-client)
       * setup apollo environment with react
+   2. ***[semanticUI_routes](https://github.com/3madov-77/Social-Media_App/tree/semanticUI_routes)***: adding and using Semantic UI techology..
+      * update README with last steps
+      * installing more requierd dependencys: (react-router-dom semantic-ui-css semantic-ui-react)
+      * create Home, Login, Register page
+      * creating MenuBar using Semantic UI
