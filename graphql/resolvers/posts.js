@@ -1,4 +1,5 @@
 const { AuthenticationError, UserInputError } = require('apollo-server');
+const { subscribe } = require('graphql');
 
 const Post = require('../../models/Post');
 const checkAuth = require('../../util/check-auth');
@@ -40,6 +41,10 @@ module.exports = {
 
             const post = await newPost.save();
 
+            context.pubsub.publish('NEW_POST', {
+                newPost: post
+            })
+
             return post;
         },
         async deletePost(_, { postId }, context){
@@ -76,6 +81,11 @@ module.exports = {
                 return post;
 
             }else throw new UserInputError('Post not found')
+        }
+    },
+    Subscription: {
+        newPost: {
+            subscribe: (_, __, { pubsub }) => pubsub.asyncIterator('NEW_POST')
         }
     }
 
