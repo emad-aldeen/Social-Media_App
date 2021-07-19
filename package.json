@@ -4,6 +4,7 @@
   "description": "Small Social-Media_App using MERN Stack + GRaphQl",
   "main": "index.js",
   "scripts": {
+    "serve": "node index",
     "start": "nodemon index"
   },
   "repository": {
