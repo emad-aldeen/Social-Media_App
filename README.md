@@ -6,7 +6,7 @@ Small Social-Media_App using MERN Stack + GRaphQl
 ## Steps:
 * Back-end Server:
 
-   1. ***[setUp](https://github.com/3madov-77/Social-Media_App/tree/setUp)***: setup all requierd tools for start bulding the App:
+   1. ***[setUp](https://github.com/3madov-77/Social-Media_App/tree/setUp)***: setup all requierd tools to start bulding the Server:
       * creating the Project [Repo](https://github.com/3madov-77/Social-Media_App)
       * create the requierd files
       * create the NPM init
