@@ -37,7 +37,7 @@ function Login(props) {
           name="username"
           type="text"
           value={values.username}
-          error={errors.username ? true : false}
+          error={errors? errors.username ? true : false : false}
           onChange={onChange}
         />
         <Form.Input
@@ -46,12 +46,12 @@ function Login(props) {
           name="password"
           type="password"
           value={values.password}
-          error={errors.password ? true : false}
+          error={errors ? errors.password ? true : false : false}
           onChange={onChange}
         />
-        <Button type="submit" primary>
+        <Form.Button type="submit" primary>
           Login
-        </Button>
+        </Form.Button>
       </Form>
       {Object.keys(errors).length > 0 && (
         <div className="ui error message">
