@@ -6,7 +6,7 @@ Small Social-Media_App using MERN Stack + GRaphQl
 ## Steps:
 * Back-end Server:
 
-   1. ***[setUp](https://github.com/3madov-77/Social-Media_App/tree/setUp)***: setup all requierd tools for start bulding the App:
+   1. ***[setUp](https://github.com/3madov-77/Social-Media_App/tree/setUp)***: setup all requierd tools to start bulding the Server:
       * creating the Project [Repo](https://github.com/3madov-77/Social-Media_App)
       * create the requierd files
       * create the NPM init
@@ -32,3 +32,14 @@ Small Social-Media_App using MERN Stack + GRaphQl
       * added check auth function using jwt
       * using req as callback to controle req headers
       * implementing delete specific post method
+   4. ***[likes-comments-sub](https://github.com/3madov-77/Social-Media_App/tree/likes-comments-sub)***: implemnt (create & delete comments, like & unlike posts, subscribe to specific post) methods, also implemnted new fields in posts (likes & comments count)
+      * update README with last steps
+      * added validtors for post user input
+      * implementing create comment for each post
+      * added validator for comment user input
+      * implementing delete comment for any post
+      * added like,unlike for specifc post
+      * added Pub & Sub library
+      * added Subscription type
+      * implement Subscription method
+      * added likes & comments counter
