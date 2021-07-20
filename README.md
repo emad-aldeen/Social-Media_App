@@ -54,3 +54,8 @@ Small Social-Media_App using MERN Stack + GRaphQl
       * installing more requierd dependencys: (react-router-dom semantic-ui-css semantic-ui-react)
       * create Home, Login, Register page
       * creating MenuBar using Semantic UI
+   3. ***[displaying-posts](https://github.com/3madov-77/Social-Media_App/tree/displaying-posts)***: adding fetch all posts to the Home page and style it useing Semantic UI components
+      * update README with last steps
+      * installing more requierd dependencys
+      * added fetch all posts to Home page
+      * using Semantic UI to create post-card
