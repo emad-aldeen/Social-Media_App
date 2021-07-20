@@ -43,3 +43,9 @@ Small Social-Media_App using MERN Stack + GRaphQl
       * added Subscription type
       * implement Subscription method
       * added likes & comments counter
+* Front-end Server:
+   1. ***[setUp_front-end](https://github.com/3madov-77/Social-Media_App/tree/setUp_front-end)***: setup all requierd tools to start bulding the Client-App:
+      * update README with last steps
+      * set up react-app
+      * installing requierd dependencys: (@apollo/react-hooks apollo-cache-inmemory apollo-link-http apollo-client)
+      * setup apollo environment with react
