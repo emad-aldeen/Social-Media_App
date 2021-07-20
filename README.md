@@ -61,3 +61,12 @@ Small Social-Media_App using MERN Stack + GRaphQl
         * some styling for form
         * added login method with form
         * added handle erros methods
+    4. ***[Authentication_Context](https://github.com/3madov-77/Social-Media_App/tree/Authentication_Context)***: make sure that user are logedin already and create context Data-Mangment system
+        * update README with last steps
+        * added context hook to save user login
+        * implement check the context as parent component
+        * merge login & register with context
+        * create dynamic Menu Bar in logedin || not cases
+        * added jwt-decode dependency
+        * added check method if user are logedin after refresh the page
+        * create Auth for Routs
