@@ -1,4 +1,21 @@
 import React, { createContext, useReducer } from 'react';
+import jwtDecode from 'jwt-decode';
+
+const initialState = {
+    user: null
+}
+
+if(localStorage.getItem('jwtToken')){
+    const decodedToken = jwtDecode(localStorage.getItem('jwtToken'));
+
+    // make sure token are not expired
+    if(decodedToken.exp * 1000 < Date.now()){ // cus exp date is in s >> ms
+        localStorage.removeItem('jwtToken')
+        alert(`your login is expired \n please login again!`)
+    } else {
+        initialState.user = decodedToken;
+    }
+}
 
 const AuthContext = createContext({
     user: null,
@@ -24,9 +41,10 @@ function authReducer(state, action){
 }
 
 function AuthProvider(props){
-    const [state, dispatch] = useReducer(authReducer, { user: null });
+    const [state, dispatch] = useReducer(authReducer, initialState);
 
     function login(userData){
+        localStorage.setItem('jwtToken', userData.token);
         dispatch({
             type: 'LOGIN',
             payload: userData
@@ -34,6 +52,7 @@ function AuthProvider(props){
     }
     
     function logout(){
+        localStorage.removeItem('jwtToken')
         dispatch({ type: 'LOGOUT' })
     }
 
