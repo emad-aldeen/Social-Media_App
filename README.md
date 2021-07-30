@@ -94,3 +94,16 @@ Small Social-Media_App using MERN Stack + GRaphQl
 	    * added delete button in each comment for authntecated user in singlePost page
 	    * added creat comment form in singlePost page
 	    * modifie delete button to handle comments and posts
+    9. ***[Popups](https://github.com/3madov-77/Social-Media_App/tree/Popups)***: adding popups to all avilable buttons
+        * update README with last steps
+    	* create dynamic popup from semantic ui
+	    * added popup to delete button
+	    * added popup to comment button
+	    * added popup to like button
+    10. ***[Deployment](https://github.com/3madov-77/Social-Media_App/tree/Deployment)***: Deploy our final app on Herouko & Netlify
+        * update README with last steps
+        * adding error handler for some functions
+        * prepare app for production
+        * split app to 2 files(server-side & client-side)
+        * deploy server-side on herouko
+        * deploy client-side on netlify
