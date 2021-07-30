@@ -88,4 +88,9 @@ Small Social-Media_App using MERN Stack + GRaphQl
 	    * adding single-post route
 	    * edit delete post in post card with continer
 	    * adding confirm message when click delete
-        
+    8. ***[Handle-Comments](https://github.com/3madov-77/Social-Media_App/tree/Handle-Comments)***: adding & deleteing comments in any post
+        * update README with last steps
+	    * added comment cards in singlePost page
+	    * added delete button in each comment for authntecated user in singlePost page
+	    * added creat comment form in singlePost page
+	    * modifie delete button to handle comments and posts
