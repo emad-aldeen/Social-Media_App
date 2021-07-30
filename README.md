@@ -1,6 +1,10 @@
 # Social-Media_App
 Small Social-Media_App using MERN Stack + GRaphQl
 
+you can check the final client side deployed by Netlify on : https://elastic-ride-a993c0.netlify.app/
+
+or check the server deploy on Herouko on: https://infinite-beyond-63252.herokuapp.com/
+
 ////////////////////////////////////////////
 
 ## Steps:
