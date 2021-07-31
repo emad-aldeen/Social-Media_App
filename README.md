@@ -70,3 +70,9 @@ Small Social-Media_App using MERN Stack + GRaphQl
         * added jwt-decode dependency
         * added check method if user are logedin after refresh the page
         * create Auth for Routs
+    5. ***[Adding-Posts](https://github.com/3madov-77/Social-Media_App/tree/Adding-Posts)***: implemnt adding posts when user are logedin and add his Authorization toekn to the server requist
+        * update README with last steps
+        * added apollo-link-context dependency
+        * adding Authorization with token to the request
+        * out sourcing fetch-posts qwery
+        * added create post form with method
