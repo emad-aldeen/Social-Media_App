@@ -76,3 +76,9 @@ Small Social-Media_App using MERN Stack + GRaphQl
         * adding Authorization with token to the request
         * out sourcing fetch-posts qwery
         * added create post form with method
+    6. ***[like-button](https://github.com/3madov-77/Social-Media_App/tree/like-button)***: enable like-button to have functionalty when it been klicked by makeing sure first that user is logedin, then he didn't liked the post, then sending the requist to update the post in DB
+        * update README with last steps
+	    * added transition style to posts
+	    * adding delete button depending on if user is same post owner
+	    * adding like button method
+	    * no dark colors on foucs when you like! :|
