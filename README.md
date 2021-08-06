@@ -82,3 +82,10 @@ Small Social-Media_App using MERN Stack + GRaphQl
 	    * adding delete button depending on if user is same post owner
 	    * adding like button method
 	    * no dark colors on foucs when you like! :|
+    7. ***[single-post_page](https://github.com/3madov-77/Social-Media_App/tree/single-post_page)***: displaying each post in single page..
+        * update README with last steps
+	    * adding delete button functionalty
+	    * adding single-post route
+	    * edit delete post in post card with continer
+	    * adding confirm message when click delete
+        
